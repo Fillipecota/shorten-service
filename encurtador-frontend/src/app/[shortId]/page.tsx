@@ -17,6 +17,8 @@ export default function Redirect() {
         const originalUrl = response.data.originalUrl;
 
         window.location.href = originalUrl;
+
+        
     }
 
     return <h1>Redirecionando....</h1>
